@@ -2,8 +2,6 @@ name: Build Kernel
 
 on:
   push:
-    branches:
-      - main
     tags:
       - '*'
 
